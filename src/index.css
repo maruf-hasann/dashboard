@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ .compo {
+ @apply max-w-[900px]
+  }
+}
+@layer utilities {
+    th, td {
+  padding: 15px;
+}
+
+}
+.dr_width {
+    width: 963px !important;
+ 
+}
